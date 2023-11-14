@@ -1,2 +1,2 @@
 # SFarm
-this page is my Farm data repository
+This page is my Farm data repository
