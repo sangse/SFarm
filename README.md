@@ -30,13 +30,13 @@
 
 # 프로젝트 구조 (Archtiecture)
 
-1. **Firebase**
-   구글에서 제공하는 Firebase Realtime Database 를 Rasberry Pi Pico W와 Web을 연동하여 응용을 계획한다.
+1. **Firebase:**
+   구글에서 제공하는 Firebase Realtime Database 를 Rasberry Pi Pico W와 Web을 연동하여 응용을 계획한다. Web 또는 App과 연동할수 있는 Firebase 데이터 베이스를 구성하고, IOT장비와 연동하여 다양한 센서들의 데이터를 저장하고, 동작 할 수 있게 설계하였다.
    ![파이어베이스와 앱웹피코](https://github.com/sangse/SFarm/assets/145996429/141b0d31-60f3-455a-a890-f51991b5614e)
 
 
    
-2. **스마트팜 구조**
+3. **스마트팜 구조**
 
 
 
