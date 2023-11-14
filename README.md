@@ -28,10 +28,24 @@
   
 이 프로젝트의 목적은 현재 스마트팜에 대해서 기술적인 지원을 어떻게 할 수 있는지 이해하고, 미래에 무엇을 할 수 있는가에대해서 알기 위한 기반을 다짐이다. 
 
-# 프로젝트 구조
+# 프로젝트 구조 (Archtiecture)
 
-1. Firebase
+1. **Firebase**
+   구글에서 제공하는 Firebase Realtime Database 를 Rasberry Pi Pico W와 Web을 연동하여 응용을 계획한다.
+   ![파이어베이스와 앱웹피코](https://github.com/sangse/SFarm/assets/145996429/141b0d31-60f3-455a-a890-f51991b5614e)
 
-2. 스마트팜 구조
 
-3. 회로도
+   
+2. **스마트팜 구조**
+
+
+
+
+
+
+4. 
+
+5. **회로도**
+
+
+# 프로젝트 세팅 (Setting)
