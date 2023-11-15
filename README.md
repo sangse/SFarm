@@ -59,7 +59,29 @@
 
 # 작물 키우기
 1. **발아시키기**
-2. **양액 및 배지 설치**
-3. **수경재배 옮겨주기**
+- 청상추와 바질 씨앗을 물티슈 위에 올려놓고 물뿌리개로 물을 적셔준다. 바질씨앗은 청상추 보다 늦게 발아를 시작하기 떄문에 구분을 나눠줘서 진행하였다. 발아 시킬때의 주의 할점은 밝은 곳에서 발아를 시키면 발아가 잘 안될수 있으므로 피하는 게좋다. 아래와 같이 호일을 씌어줘서 발아하는 것이 좋다.
+<div style="display: flex; justify-content: space-between;">
+
+  <!-- 첫 번째 이미지 -->
+  <img src="https://github.com/sangse/SFarm/assets/145996429/1fa4a3e5-fefd-480c-8fe4-8b22d836800d" alt="이미지1" width="333">
+
+  <!-- 두 번째 이미지 -->
+  <img src="https://github.com/sangse/SFarm/assets/145996429/853c9c69-3b81-441a-9623-9aab373c5fec" alt="이미지2" width="333">
+
+  <!-- 세 번째 이미지 -->
+  <img src="https://github.com/sangse/SFarm/assets/145996429/993e4ed1-395a-47c6-baad-210d528e5906" alt="이미지3" width="333">
+
+</div>
+- 시간이 지나서 발아한 모습이다. 뿌리의 형태가 나올떄까지는 씨앗자체 양분으로 자라난다. 그 후에 토지 역할을 해줄 스펀지로 옮겨줘야한다.
+
+
+3. **양액 및 배지 설치**
+4. **수경재배 옮겨주기**
 
 # 코드 설명(MicroPython, HTML, JavaScript, Firebase)
+
+
+
+
+
+
