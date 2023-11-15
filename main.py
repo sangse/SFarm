@@ -64,12 +64,12 @@ while True:
     
     t_count += 1
     utime.sleep(1)
-    
-    response = urequests.get(url+"/led.json").json()
-    
-    print("led:", response['led'])
 
-    # firebase에서 참조한 LED 키 상태를 활용해서 LED를 켜주고 꺼준다.
+
+    
+     # firebase에서 참조한 LED 키 상태를 활용해서 LED를 켜주고 꺼준다.
+    response = urequests.get(url+"/led.json").json()
+    print("led:", response['led'])
     if (response['led'] == 1) :
         LED.value(1)
     else :
