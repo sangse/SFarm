@@ -76,7 +76,14 @@
 
 
 3. **양액 및 배지 설치**
-4. **수경재배 옮겨주기**
+- 시간이 지나서 발아시킨 씨앗에 어느정도 뿌리 형태와 잎이 나오게 되면, 땅의 역할을 해줄수 있는 스펀지에 옮겨서 심어야한다. 스펀지는 물의 흡수가 잘되고 통풍도 잘되서 땅의 역할을 대신하기에 적합하다.
+<div style="display: flex; justify-content: center; align-items: center; ">
+   <img src = "https://github.com/sangse/SFarm/assets/145996429/4affb6f1-d1ac-4ec2-885c-65a54d264697" alt = "배지옮" height:333;>
+</div>
+![KakaoTalk_20231115_201613432_06](https://github.com/sangse/SFarm/assets/145996429/4affb6f1-d1ac-4ec2-885c-65a54d264697)
+https://github.com/sangse/SFarm/assets/145996429/4affb6f1-d1ac-4ec2-885c-65a54d264697
+
+5. **수경재배 옮겨주기**
 
 # 코드 설명(MicroPython, HTML, JavaScript, Firebase)
 
