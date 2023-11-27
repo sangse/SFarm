@@ -110,8 +110,10 @@ https://github.com/sangse/SFarm/assets/145996429/7ad4d091-5204-4e62-96be-8e0331f
 
 ---
 # Micropython, Firebase, Web 설정
-1. Rasberrypi pico를 파이썬 코드로 작동할수 있는 Micropython 전용 IDE Thonny를 사용하여 코드를 작성하였다. 
-'''python
+1. Rasberrypi pico를 파이썬 코드로 작동할수 있는 Micropython 전용 IDE Thonny를 사용하여 코드를 작성하였다.
+ 
+```python
+
 import dht
 from machine import Pin,ADC
 import utime
@@ -144,27 +146,24 @@ print("피코 시작 -> 현재 날짜와 시간:", formatted_datetime)
 
 
 
-# PICO에서 입출력 설정 값.
+# PICO에서 입출력 설정 값. 모터와 DHT11 센서가 같은 통신선을 사용하면 에러날 확률이 높다.
 d = dht.DHT11(Pin(17))  # 17번 GPIO 핀을 사용 I2C0_SCL
-l = ADC(28)				# 28번 GPIO 핀을 사용 
+l = ADC(28)				   # 28번 GPIO 핀을 사용 
 LED = Pin(16,Pin.OUT)	# 16번 GPIO 핀을 사용 I2C0_SDA
 motor = Pin(15,Pin.OUT) # 15번 GPIO 핀을 사용 I2C1_SCL
 
 
 
 while True:
-    # 측정시간
-    try:
-        
+    # 측정시간 
+    try:  
         current_time = utime.time()
-        
         current_datetime = utime.localtime(current_time)
-        
         year, month, day, hour, minute, second, _, _ = current_datetime
         
 
         
-        #firebase에 3분마다 데이터 전송하기.
+        #firebase에 5분마다 데이터 전송하고 모터 작동하여 양액 순환시켜주기
         if minute%5 == 0:
             try:
                 # 측정값
@@ -204,13 +203,13 @@ while True:
             pass
         
         utime.sleep(3)
-    # 가끔 온습도 센서에서 오류가나서 프로그램 멈춤현상 오류 패스.    
+    # 온습도 센서에서 오류가나서 프로그램 멈춤현상 오류 패스.    
     except Exception as e:
         utime.sleep(1)
         print(e)
         pass
      
-'''
+```
 
 
 
