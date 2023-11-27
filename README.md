@@ -219,7 +219,8 @@ while True:
    - LED 제어 전용 Key값을 만들어준다. Web이랑 Micropython이 firebase의 LED key값을 참조하여 제어가 가능해진다.
       ![스크린샷 2023-11-27 121106](https://github.com/sangse/SFarm/assets/145996429/e98d5ee5-aea9-4342-a2d0-bd0d64363515)
 
-   
+## 3. Web상에서 그래프로 온습도, 광도 제어값을 체크하고 LED크고,켜기
+   - 
 
 
 
