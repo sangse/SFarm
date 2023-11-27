@@ -87,6 +87,21 @@
 </div>
 
 3. **수경재배 옮겨주기**
+- 뿌리가 어느정도 배지에 자리를 잡게되면 좀 더 큰 환경으로 옮겨 줘야한다. 그리고 실내에서 키우는 작물이다 보니 빛의 양이 부족하기 떄문에 따로 빛을 공급할 수 있는 LED를 설치하였다.
+<div style="display: flex; justify-content: center; align-items: center; ">
+   <img src = "https://github.com/sangse/SFarm/assets/145996429/08805ef4-ecd8-4b43-abac-68c9cfec59e0" alt = "배지옮" height:333;>
+</div>
+- 양액이 고여있으면 녹조 현상이 발생하여서 모터를 설치하여 주기적으로 물이 흐를수 있게 해주었다.
+<div style="display: flex; justify-content: center; align-items: center; ">
+   <img src = "https://github.com/sangse/SFarm/assets/145996429/b271c469-756e-4b1d-af6c-a9b35f9b8fd4" alt = "배지옮" height:333;>
+</div>
+
+https://github.com/sangse/SFarm/assets/145996429/cd37fe5d-40ea-44e7-bc60-78d027d31c03
+
+
+
+
+
 
 ---
 # Micropython
