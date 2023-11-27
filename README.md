@@ -135,7 +135,7 @@ while not wlan.isconnected():
 print('Wi-Fi 연결 성공')
 
 # Firebase의 Realtime Database와 연결하기 위한 URL을 설정합니다.
-url = "https://fir-25fa9-default-rtdb.firebaseio.com/"
+url = "your Realtime databse url."
 
 # 현재 시간을 초 단위로 얻어오기 current_time을 사용하여 현재 날짜 및 시간을 출력하려면 다음과 같이 변환.
 current_time = utime.time()
