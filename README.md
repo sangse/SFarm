@@ -100,11 +100,9 @@
   <img src="https://github.com/sangse/SFarm/assets/145996429/b271c469-756e-4b1d-af6c-a9b35f9b8fd4" alt="이미지2" width="333">
 
   <!-- 세 번째 이미지 -->
-  <img src="https://github.com/sangse/SFarm/assets/145996429/8f8ad9c4-9570-4f20-bb29-164fd8043e74" alt="이미지3" width="333">
+  <img src="https://github.com/sangse/SFarm/assets/145996429/d96b6146-8d50-4180-bb70-93000c6f3cd8" alt="이미지3" width="333">
 
 </div>
-
-
 
 
 https://github.com/sangse/SFarm/assets/145996429/cd37fe5d-40ea-44e7-bc60-78d027d31c03
