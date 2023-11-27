@@ -1,5 +1,4 @@
 
-https://github.com/sangse/SFarm/assets/145996429/15d8e00b-5b33-4558-8233-a422a3fd1996
 # SFarm Project.
 
 스마트 농장에 관심이 생겨서 기본적인 프로젝트를 구성해보았다
@@ -225,7 +224,7 @@ while True:
    - HTML코드를 작성해서 그래프를 공간과 LED 버튼을 구현해주었고, 자바스크립트를 통해 Firebase에서 LED key값과 데이터들이 업데이트 될떄마다 실시간으로 업데이트 해주도록 하였다.
    ![스크린샷 2023-11-27 175616](https://github.com/sangse/SFarm/assets/145996429/e928e3ed-7014-412e-bcec-db91b9731cb9)
 
-   Uploading KakaoTalk_20231127_190335437.mp4…
+   https://github.com/sangse/SFarm/assets/145996429/15d8e00b-5b33-4558-8233-a422a3fd1996
 
 
 
