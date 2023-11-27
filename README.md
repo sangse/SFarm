@@ -106,12 +106,7 @@
 </div>
 
 
-
-https://github.com/sangse/SFarm/assets/145996429/6e1c7f29-ed34-433e-9df7-29e6b3fe4911
-
-
-
-
+https://github.com/sangse/SFarm/assets/145996429/7ad4d091-5204-4e62-96be-8e0331fcf86e
 
 
 ---
