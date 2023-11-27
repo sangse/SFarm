@@ -110,7 +110,7 @@ https://github.com/sangse/SFarm/assets/145996429/7ad4d091-5204-4e62-96be-8e0331f
 
 ---
 # Micropython, Firebase, Web 설정
-1. Rasberrypi pico를 파이썬 코드로 작동할수 있는 Micropython 전용 IDE Thonny를 사용하여 코드를 작성하였다.
+## 1. Rasberrypi pico를 파이썬 코드로 작동할수 있는 Micropython 전용 IDE Thonny를 사용하여 코드를 작성하였다. 아래 코드는 main.py 코드이고 주석을 참고하면 이해하는데 도움이 될것같다.
  
 ```python
 
@@ -210,6 +210,16 @@ while True:
         pass
      
 ```
+## 2. Firebase을 통해서 센서들이 읽어오는 실시간 데이터를 저장하고, pico에 신호를 보내서 LED 동작을 제어할수있다.
+   - 처음으로 Firebase를 사용할 떄 Realtimebase에서 사용권한을 설정해준다. 테스트환경이라서 모든 사람들이 url주소만 알고 있다면 읽고 쓰는게 가능하게 설정하였다.
+     ![스크린샷 2023-11-27 120936](https://github.com/sangse/SFarm/assets/145996429/84c4390e-f638-4120-b840-b712309c966c)
+
+   - 온습도,광도를 저장하는 데이터 구조이다. 날짜와 시간에흐름에따라서 저장을한다. 현재는 10분마다 데이터를 저장하고 있다. 이렇게 저장된 데이터는 나중에 머신러닝을 이용해서 학습데이터로도 이용할 계획이다.
+      ![스크린샷 2023-11-27 120859](https://github.com/sangse/SFarm/assets/145996429/0ef2fd91-2ec0-452e-91c4-7325b125823b)
+   - LED 제어 전용 Key값을 만들어준다. Web이랑 Micropython이 firebase의 LED key값을 참조하여 제어가 가능해진다.
+      ![스크린샷 2023-11-27 121106](https://github.com/sangse/SFarm/assets/145996429/e98d5ee5-aea9-4342-a2d0-bd0d64363515)
+
+   
 
 
 
