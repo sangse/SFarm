@@ -82,6 +82,7 @@
 </div>
 - 양액은 시중에서 파는 물푸레 제품을 사용하였습니다. 상추 같은 엽채류 종류의 양액비율이 나와있기 떄문에 쉽게 양액비율 조절을 할수 있습니다. 처음 뿌리가 뻗지 않은 상태에서는 500배 비율로 영양을 주고, 뿌리가 어느정도 배지에 자리를 잡으면 250배로 바꾸어줍니다.
 
+
 <div style="display: flex; justify-content: center; align-items: center; ">
    <img src = "https://github.com/sangse/SFarm/assets/145996429/b98d3f21-d461-420f-86b2-c6cbece3f963" alt = "배지옮" height:333;>
 </div>
@@ -105,7 +106,8 @@
 </div>
 
 
-https://github.com/sangse/SFarm/assets/145996429/cd37fe5d-40ea-44e7-bc60-78d027d31c03
+
+https://github.com/sangse/SFarm/assets/145996429/6e1c7f29-ed34-433e-9df7-29e6b3fe4911
 
 
 
