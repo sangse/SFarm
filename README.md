@@ -220,7 +220,8 @@ while True:
       ![스크린샷 2023-11-27 121106](https://github.com/sangse/SFarm/assets/145996429/e98d5ee5-aea9-4342-a2d0-bd0d64363515)
 
 ## 3. Web상에서 그래프로 온습도, 광도 제어값을 체크하고 LED크고,켜기
-   - 
+   - HTML코드를 작성해서 그래프를 공간과 LED 버튼을 구현해주었고, 자바스크립트를 통해 Firebase에서 LED key값과 데이터들이 업데이트 될떄마다 실시간으로 업데이트 해주도록 하였다.
+   ![스크린샷 2023-11-27 175616](https://github.com/sangse/SFarm/assets/145996429/e928e3ed-7014-412e-bcec-db91b9731cb9)
 
 
 
